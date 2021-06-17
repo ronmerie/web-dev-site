@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Liquore</title>
+</head>
+<body>
+<select id="sample">
+	<option value="whiskey">Whiskey</option>
+	<option value="vodka">Vodka</option>
+	<option value="wines">Wines</option>
+	<option value="beer">Beer</option>
+</select>
+<button onclick="getvalue();">Get Value</button>
+<script type="text/javascript">
+	function getvalue(){
+		var value = document.getElementById('sample').value;
+		alert(value);
+	}
+</script>
+</body>
+</html>

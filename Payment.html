@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function show_confirm()
+		{
+			var r=confirm("press a button");
+			if(r==true)
+			{
+				document.write("You pressed OK!");
+			}
+			else
+			{
+				document.write("You pressed Cancel!");
+			}
+		}
+	</script>
+	<title>Payment</title>
+</head>
+<body bgcolor="">
+<div class="row">
+	<div class="col-75">
+		<div class="container">
+			<form action="/action_page.php">
+				<div class="row">
+					<div class="col-50">
+						<h3>Billing Address</h3>
+						<p><label for="fname"><j class="fa fa-user"></j>Full name :</label>
+						<input type="text" id="fname"name="firstname"placeholder="Ron M".><br></p>
+						<p><label for="email"><j class="fa fa-envelope"></j>Email :</label>
+						<input type="text" id="email"name="email"placeholder="Ron@example.com".><br></p>
+						<p><label for="adr"><j class="fa fa-card-o"></j>Address :</label>
+						<input type="text" id="adr"name="address"placeholder="542 street".><br></p>
+						<p><label for="city"><j class="instruction"></j>City :</label>
+						<input type="text" id="city"name="email"placeholder="Nairobi".></p>
+						<div class="row">
+							<div class="col-50">
+								<label for="state">State :</label>
+								<input type="text" id="state"name="state" placeholder="Nbi">
+							</div>
+							<p><label for="cname">Card type :</label>
+							<input type="text" id="cname"name="cardname"placeholder="Ron Merie Mbatia"><br></p>
+							<p><label for="ccnum">Credit card :</label>
+							<input type="text" id="ccnum"name="cardnumber"placeholder="0000-1111-2222-4444"></p>
+
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<a href="Homepage.html"class="btn"><p><button>Back</button></p></a>
+</body>
+</html>

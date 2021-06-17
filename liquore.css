@@ -1,0 +1,33 @@
+
+.liquore{
+	padding: 10px;
+	font-family: sans-serif;
+}
+.liquore_item{
+	display: inline-block;
+}
+.liquore_item:not( :last-of-type)::after{content: '/';margin: 0.5px;color: #cccc}
+.liquore_link{
+	text-decoration: none;
+	color: #999999;
+}
+.liquore_link:hover{
+	text-decoration: underline;
+}
+.liquore
+_link--active{
+	color: red;
+	font-weight: 500;
+}
+{
+	background-image:
+	url(jdaniels.jpg);
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+}
+{
+	.whiskey{
+		display: grid;
+		grid-template-columns:  1fr:1fr:1fr;
+	}
+}
